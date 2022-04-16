@@ -32,9 +32,9 @@ const calcularAreaCuadrado = () => {
 const alturaIsosceles = (lado1, lado2, base) => {
   if (lado1 === lado2 && lado1 !== base ) {
     const altura = Math.sqrt(lado1 ** 2 - (base ** 2)/4)
-    alert(`This is a isosceles triangle, its height is ${altura}`)
+    alert(`This is an isosceles triangle, its height is ${altura}`)
   }
   else {
-    alert("This is not a isosceles triangle")
+    alert("This is not an isosceles triangle")
   }
 }
